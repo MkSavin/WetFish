@@ -9,7 +9,7 @@ services:
         volumes:
             - .:/var/www/laravel
         ports:
-            - 8989:80
+            - 8787:80
             - 4432:443
         links:
             - php
