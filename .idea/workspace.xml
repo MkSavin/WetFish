@@ -20,7 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6cd7ec29-3133-416d-9660-3e196cfe24dd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/wetfish.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wetfish.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_03_05_222140_create_questions_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_03_05_222140_create_questions_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_03_05_222417_create_answers_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_03_05_222417_create_answers_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_03_05_222529_create_hints_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_03_05_222529_create_hints_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_03_05_222626_create_stats_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_03_05_222626_create_stats_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_03_05_223313_create_congrats_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_03_05_223313_create_congrats_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,6 +163,21 @@
       <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
       <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
       <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/larapack/voyager-hooks" />
+      <path value="$PROJECT_DIR$/vendor/larapack/hooks" />
+      <path value="$PROJECT_DIR$/vendor/larapack/doctrine-support" />
+      <path value="$PROJECT_DIR$/vendor/intervention/image" />
+      <path value="$PROJECT_DIR$/vendor/justinrainbow/json-schema" />
+      <path value="$PROJECT_DIR$/vendor/tcg/voyager" />
+      <path value="$PROJECT_DIR$/vendor/arrilot/laravel-widgets" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/seld/phar-utils" />
+      <path value="$PROJECT_DIR$/vendor/seld/jsonlint" />
+      <path value="$PROJECT_DIR$/vendor/react/promise" />
     </include_path>
   </component>
   <component name="ProjectId" id="1nvvVgV5eiYLHwG0QZbi8VFUPSN" />
@@ -178,7 +207,7 @@
       <option name="presentableId" value="Default" />
       <updated>1612283418298</updated>
       <workItem from="1612283423636" duration="2682000" />
-      <workItem from="1614982095120" duration="3188000" />
+      <workItem from="1614982095120" duration="8251000" />
     </task>
     <servers />
   </component>
@@ -201,6 +230,10 @@
       <screen x="0" y="0" width="3440" height="1410" />
     </state>
     <state x="721" y="628" key="NewPhpFileDialog/0.0.3440.1410@0.0.3440.1410" timestamp="1612283493362" />
+    <state x="1933" y="319" key="run.anything.popup" timestamp="1614992767359">
+      <screen x="0" y="0" width="3440" height="1410" />
+    </state>
+    <state x="1933" y="319" key="run.anything.popup/0.0.3440.1410/-1920.467.1920.1050@0.0.3440.1410" timestamp="1614992767359" />
     <state x="1760" y="336" width="672" height="678" key="search.everywhere.popup" timestamp="1614983226630">
       <screen x="0" y="0" width="3440" height="1410" />
     </state>

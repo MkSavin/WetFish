@@ -16,10 +16,10 @@ class CreateQuestionsTable extends Migration
         Schema::create('questions', function (Blueprint $table) {
             $table->id();
             $table->longText('text');
-            $table->foreignId('next_id');
-            $table->string('type'); // one of: [one, multiple, text]
-            $table->boolean('checkpoint');
-            $table->foreignId('congrat_id');
+            $table->foreignId('next_id')->nullable();
+            $table->string('type')->default('one'); // one of: [one, multiple, text]
+            $table->boolean('checkpoint')->default(false);
+            $table->foreignId('congrat_id')->nullable();
             $table->timestamps();
         });
     }

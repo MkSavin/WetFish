@@ -18,7 +18,7 @@ class CreateStatsTable extends Migration
             $table->foreignId('user_id');
             // $table->foreignId('question_id');
             $table->foreignId('answer_id');
-            $table->text('wrote_text');
+            $table->text('wrote_text')->nullable();
             $table->timestamps();
         });
     }

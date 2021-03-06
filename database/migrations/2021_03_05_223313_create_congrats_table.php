@@ -16,10 +16,10 @@ class CreateCongratsTable extends Migration
         Schema::create('congrats', function (Blueprint $table) {
             $table->id();
             $table->longText('text');
-            $table->string('author');
-            $table->text('video');
-            $table->text('image');
-            $table->text('audio');
+            $table->string('author')->nullable();
+            $table->text('video')->nullable();
+            $table->text('image')->nullable();
+            $table->text('audio')->nullable();
             $table->timestamps();
         });
     }

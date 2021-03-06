@@ -16,8 +16,9 @@ class CreateHintsTable extends Migration
         Schema::create('hints', function (Blueprint $table) {
             $table->id();
             $table->foreignId('question_id');
-            $table->longText('hint');
-            $table->string('type'); // one of: [general, suggestive, direct]
+            $table->longText('text');
+            $table->string('type')->default('general'); // one of: [general, suggestive, direct]
+            $table->unique(['type', 'question_id']);
             $table->timestamps();
         });
     }
