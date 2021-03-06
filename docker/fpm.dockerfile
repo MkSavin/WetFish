@@ -3,7 +3,7 @@ FROM php:7.4.3-fpm
 RUN buildDeps="libpq-dev libzip-dev libicu-dev libpng-dev libjpeg62-turbo-dev libfreetype6-dev libmagickwand-6.q16-dev libxslt-dev" && \
     apt-get update && \
     apt-get install -y $buildDeps --no-install-recommends && \
-    docker-php-ext-install pdo pdo_mysql pdo_pgsql
+    docker-php-ext-install pdo pdo_mysql pdo_pgsql gd zip
 
 WORKDIR /var/www/laravel
 
