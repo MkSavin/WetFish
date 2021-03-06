@@ -2,7 +2,7 @@ version: "3.2"
 
 services:
     nginx:
-        build: 
+        build:
             context: .
             dockerfile: docker/nginx.dockerfile
         container_name: wetfish-nginx
@@ -13,7 +13,7 @@ services:
             - 4432:443
         links:
             - php
-            - postgres
+            - mysql
 
     php:
         build:
@@ -23,7 +23,7 @@ services:
         expose:
             - 9000
         links:
-            - postgres
+            - mysql
         volumes:
             - .:/var/www/laravel
 
@@ -33,7 +33,7 @@ services:
         container_name: wetfish-mysql
         ports:
             - 33063:3306
-        environment: 
+        environment:
             - MYSQL_USER_ROOT_NAME=root
             - MYSQL_ALLOW_EMPTY_PASSWORD=true
             - MYSQL_DATABASE=wetfish
