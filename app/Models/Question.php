@@ -2,12 +2,15 @@
 
 namespace App\Models;
 
+use \App\Traits\Relations\BelongsTo;
+use \App\Traits\Relations\Has;
+use \App\Traits\Relations\HasMany;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 class Question extends Model
 {
-    use HasFactory;
+    use HasFactory, BelongsTo\Congrat, BelongsTo\NextQuestion, HasMany\Answers, HasMany\Hints;
 
     /**
      * The attributes that should be mutated to dates.
